@@ -9,6 +9,8 @@ body {
 .header > .logo {
     font-size: 24px;
     color: #F9FAF8;
+    padding-top: 1rem;
+    font-weight: bold;
 }
 
 .header, .hero , .footer {
@@ -64,6 +66,7 @@ button {
     background-color: #3882F6;
     padding: 5px 20px;
     color: white;
+    border-radius: 7px;
 }
 .signup > button {
     border: 1px white solid;
@@ -71,14 +74,24 @@ button {
 
 .info-text {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 52px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.info {
+    max-width: 200px;
 }
 
 .info > img {
     flex: 1;
     max-width: 200px;
     max-height: auto;
+    border: 2px blue solid;
+    border-radius: 7px;
     
 }
 
@@ -87,10 +100,15 @@ button {
     font-weight: bold;
     color: #1F2937;
     align-self: center;
+    padding: 2rem 0;
 }
 
 .quote {
     background-color: #E5E7EB;
+    padding: 200px 200px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .quote-text {
@@ -99,6 +117,27 @@ button {
     color: #1F2937;
 }
 
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
 .signup {
     background-color: #3882F6;
+    margin: 50px 100px;
+    padding: 50px 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-header {
+    font-weight: bold;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
