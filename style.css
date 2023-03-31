@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -12,6 +13,8 @@ body {
 
 .header, .hero , .footer {
     background-color: #1F2937;   
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header {
@@ -22,6 +25,8 @@ body {
 ul {
     display: flex;
     justify-content: flex-end;
+    list-style: none;
+    gap: 2rem;
 }
 
 .hero-header {
@@ -57,4 +62,9 @@ button {
 
 .signup {
     background-color: #3882F6;
+}
+
+img {
+    max-width: 200px;
+    max-height: auto;
 }
